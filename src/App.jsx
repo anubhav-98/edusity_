@@ -9,11 +9,12 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 
 function App() {
-
+  const [count, setCount] = useState(0)
   return (
     <>
       <Navbar/>
       <Hero/>
+
       <div className='container'>
         <Title subTitle='Our PROGRAM' title='What We Offer'/>
         <Programs/>
